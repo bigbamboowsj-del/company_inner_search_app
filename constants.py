@@ -20,10 +20,10 @@ APP_NAME = "社内情報特化型生成AI検索アプリ"
 ANSWER_MODE_1 = "社内文書検索"
 ANSWER_MODE_2 = "社内問い合わせ"
 CHAT_INPUT_HELPER_TEXT = "こちらからメッセージを送信してください。"
-DOC_SOURCE_ICON = ":material/description: "
-LINK_SOURCE_ICON = ":material/link: "
-WARNING_ICON = ":material/warning:"
-ERROR_ICON = ":material/error:"
+DOC_SOURCE_ICON = "📄"
+LINK_SOURCE_ICON = "🔗"
+WARNING_ICON = "⚠️"
+ERROR_ICON = "❌"
 SPINNER_TEXT = "回答生成中..."
 
 
@@ -55,6 +55,11 @@ SUPPORTED_EXTENSIONS = {
 WEB_URL_LOAD_TARGETS = [
     "https://generative-ai.web-camp.io/"
 ]
+# マジックナンバー回避のための定数定義
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
+K = 5
+
 
 
 # ==========================================
